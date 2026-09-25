@@ -1,0 +1,35 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Kubernetes local files
+*.kubeconfig
+kubeconfig
+.kube/
+
+# Secrets and private keys
+secrets/
+*.secret
+*.key
+*.pem
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Helm packages
+*.tgz
+
+# Temporary files
+*.tmp
+*.log
